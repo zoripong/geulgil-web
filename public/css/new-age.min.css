@@ -185,6 +185,7 @@ header.masthead .device-container {
     margin-left: auto
 }
 
+
 header.masthead .device-container .screen img {
     border-radius: 3px
 }
@@ -209,8 +210,11 @@ header.masthead .device-container .screen img {
 }
 
 section.download {
+    background: #3571de;
+    background-image : url('../img/download-pattern.png');
     position: relative;
-    padding: 150px 0
+    padding: 150px 0;
+    padding-bottom:300px;
 }
 
 section.download p{
@@ -528,43 +532,22 @@ section.preview .section-heading p {
     
 }
 
-section.preview .device-container,
-section.preview .feature-item {
-    max-width: 325px;
-    margin: 0 auto
-}
-
-section.preview .device-container {
-    margin-bottom: 100px
-}
-
-@media (min-width:992px) {
-    section.preview .device-container {
-        margin-bottom: 0
-    }
-}
-
-/* section.preview .feature-item {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center
-} */
-
-section.preview .feature-item h3 {
-    font-size: 30px;
-    color : white;
-}
-
-/* section.preview .feature-item i {
-    font-size: 80px;
-    display: block;
-    margin-bottom: 15px;
-    background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: linear-gradient(to left, #7b4397, #dc2430);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
-} */
-
 section.preview .detail{
     margin-top: 45px;
 }
+
+section.media .section-heading {
+    margin-bottom: 50px
+}
+
+section.media .section-heading h2 {
+    margin-top: 0;
+    color : #3571de;
+}
+
+section.media .section-heading p {
+    margin-bottom: 0;
+    color : #9CB3DE;
+    
+}
+
