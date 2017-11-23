@@ -8353,7 +8353,11 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .text-muted {
-  color: #868e96 !important;
+  color: #9CB3DE !important;
+}
+
+.text-muted-info {
+  color: #fdcc52 !important;
 }
 
 .text-hide {
